@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="form-title">Login Account</h1>
+        <form method="post" action="https://appedu.niceinfos.com/demo/2022/javascript/api.php" enctype="multipart/form-data" id="login-form">
+            <div>
+                <label class="label" for="login-account">帳號</label>
+                <input class="input" type="text" name="account" id="login-account">
+            </div>
+            <div>
+                <label class="label" for="login-pwd">密碼</label>
+                <input class="input" type="password" name="pwd" id="login-pwd">
+            </div>
+            <div>
+                <label class="label" for="login-auth-code">驗證碼</label>
+                <input class="input" type="number" name="auth-code" id="login-auth-code" min="10" max="100">
+            </div>
+            <div>
+                <label class="label" for="">性別</label>
+                <input type="radio" name="gender" id="login-gender-m" value="m" checked> <label
+                    for="login-gender-m">男</label>
+                <input type="radio" name="gender" id="login-gender-f" value="f"> <label for="login-gender-f">女</label>
+            </div>
+            <div>
+                <label class="label" for="">興趣</label>
+                <input type="checkbox" name="ins[]" value="s1" id="login-ins-s1"><label for="login-ins-s1">籃球</label>
+                <input type="checkbox" name="ins[]" value="s2" id="login-ins-s2"><label for="login-ins-s2">足球</label>
+                <input type="checkbox" name="ins[]" value="s3" id="login-ins-s3"><label for="login-ins-s3">棒球</label>
+                <input type="checkbox" name="ins[]" value="s4" id="login-ins-s4"><label for="login-ins-s4">壘球</label>
+                <input type="checkbox" name="ins[]" value="s5" id="login-ins-s5"><label for="login-ins-s5">羽球</label>
+                <input type="checkbox" name="ins[]" value="s6" id="login-ins-s6"><label for="login-ins-s6">乒乓球</label>
+            </div>
+            <div>
+                <label class="label" for="login-pic">照片</label>
+                <input style="display:none;" type="file" name="pic" id="login-pic">
+                <label class="button button-primary" for="login-pic">選取照片</label>
+            </div>
+            <div>
+                <label class="label" for="login-area">地區</label>
+                <select class="input" name="area" id="login-area">
+                    <option value="">請選擇地區</option>
+                    <option>台北</option>
+                    <option>台中</option>
+                    <option>高雄</option>
+                </select>
+            </div>
+            <div>
+                <label class="label" for="login-zipcode">郵遞區號</label>
+                <select class="input" name="zipcode" id="login-zipcode">
+                    <option value="">選擇郵遞區號</option>
+                    <option>111</option>
+                    <option>222</option>
+                    <option>333</option>
+                    <option>444</option>
+                </select>
+            </div>
+            <div class="text-right">
+                <button class="button radius-6 button-danger">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer">
+        <div class="a" style="display: flex; justify-content: end;">
+            <a href="/about/work.html">返回</a>
+        </div>
+    </div>
+</body>
+</html>

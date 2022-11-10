@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@import '/css/aaa.css';
+.box {
+  width: 400px;
+  background-color: rgb(131, 179, 243);
+  color: #fff;
+  /* margin: auto; */
+  /* margin: 20px 50px 90px 200px; */
+  /* margin: 20px auto; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  /* padding: 20px; */
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.form-title {
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  height: 80px;
+}
+
+.label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  /* border: 5px solid red; */
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(0, 68, 255);
+  outline: 0; /* 移除選取時外匡 */
+  /* border-radius: 10000px; */
+  border-top-left-radius: 10000px;
+  border-bottom-right-radius: 10000px;
+  border-top-right-radius: 10000px;
+  border-bottom-left-radius: 10000px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #ef6c1b;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.radius-6 {
+  border-radius: 6px;
+}
+
+.button-danger {
+  background-color: rgb(66, 94, 238);
+  color: #fff;
+}
+
+.button-primary {
+  background-color: rgb(0, 68, 255);
+  color: #fff;
+}/*# sourceMappingURL=login.css.map */
