@@ -1,0 +1,17 @@
+@import '/css/lin.css';
+.content {
+  margin-top: 100px;
+}
+
+.jk {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.announcement {
+  width: 300px;
+  height: 500px;
+  border: 1px solid;
+}/*# sourceMappingURL=work.css.map */

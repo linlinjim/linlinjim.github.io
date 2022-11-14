@@ -1,0 +1,75 @@
+@import '/css/work.css';
+
+
+.container {
+  max-width: 1000px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+};
+
+img {
+  max-width: 100%;
+  height: auto;
+};
+
+a {
+  text-decoration: none;
+  color: inherit;
+};
+
+ul {
+  list-style-type: none;
+};
+
+.container {
+  max-width: 800px;
+  margin: auto;
+};
+
+.item.open .item-body {
+  display: block;
+};
+.item .item-header {
+  background: #2749d0;
+  color: #fff;
+};
+.item .item-header:hover {
+  background: #4b6beb;
+};
+.item .item-header > label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+};
+.item .item-body {
+  background: #c7d2ff;
+  padding: 10px;
+  display: none;
+};
+.item .item-icon {
+  font-size: 20px;
+};
+.item > .item-switch {
+  display: none;
+};
+.item .item-close {
+  display: none;
+}
+.item > .item-switch:checked ~ .item-header .item-open {
+  display: none;
+  /* .item.open .item-open {
+      display: none;
+  } */
+};
+.item > .item-switch:checked ~ .item-header .item-close {
+  display: inline;
+  /* .item.open .item-close {
+      display: inline;
+  } */
+};
+.item > .item-switch:checked ~ .item-body {
+  display: block;
+};/*# sourceMappingURL=acc2.css.map */
