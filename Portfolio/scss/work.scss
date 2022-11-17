@@ -2,17 +2,77 @@
 
 .content {
     margin-top: 100px;
+
+    .wp {
+        display:flex; 
+        justify-content: space-between; 
+        padding-left: 20px;
+
+        @media screen and (max-width: 580px) {
+            display: block;
+            padding-left: 20%;
+        }
+
+        @media screen and (max-width: 430px) {
+            padding-left: 15%;
+        }
+    }
+    .wp2 {
+        margin-top: 20px;
+        padding-left: 20px;
+
+        @media screen and (max-width: 580px) {
+            padding-left: 20%;
+        }
+
+        @media screen and (max-width: 430px) {
+            padding-left: 15%;
+        }
+    }
+
+    @media screen and (max-width: 580px) {
+        .dp {
+            display: block;
+        }
+    }
 };
 
 .jk {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 50px
 };
 
 .announcement {
     width: 300px;
     height: 500px;
     border: 1px solid;
+
+    @media screen and (max-width: 720px) {
+        height: 80px;
+    }
+
 };
+
+.footer2 {
+    @media screen and (max-width: 595px) {
+        margin-top: 80px;
+    }
+
+}
+
+.ha2 {
+    max-width: 100%;
+
+    .ha-2 {
+        width: 100%;
+        @media screen and (max-width: 1080px) {
+            width: 95%;
+        }
+
+        @media screen and (max-width: 520px) {
+            width: 90%;
+        }
+    }
+}

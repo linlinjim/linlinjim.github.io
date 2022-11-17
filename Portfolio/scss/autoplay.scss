@@ -140,3 +140,24 @@
         box-sizing: border-box;
       }
 };
+.footer2 {
+  @media screen and (max-width: 595px) {
+      margin-top: 80px;
+  }
+
+}
+
+.ha2 {
+  max-width: 100%;
+
+  .ha-2 {
+      width: 100%;
+      @media screen and (max-width: 1080px) {
+          width: 95%;
+      }
+
+      @media screen and (max-width: 520px) {
+          width: 90%;
+      }
+  }
+}
